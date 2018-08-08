@@ -28,6 +28,8 @@ library(lattice)
 library(ggplot2)
 library(caret)
 
+#the link to the original dataset: https://www.kaggle.com/mykhe1097/last-words-of-death-row-inmates
+
 lastword <- read.csv("/Users/ekaterinatitova/lastwords3.csv", stringsAsFactors = TRUE)
 
 glimpse(lastword)
